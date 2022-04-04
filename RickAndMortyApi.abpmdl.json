@@ -1,0 +1,136 @@
+{
+  "folders": {
+    "items": {
+      "services": {
+        "items": {
+          "administration": {
+            "items": {
+              "src": {}
+            }
+          },
+          "identity": {
+            "items": {
+              "src": {}
+            }
+          },
+          "product": {
+            "items": {
+              "src": {}
+            }
+          },
+          "saas": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "gateways": {
+        "items": {
+          "internal": {
+            "items": {
+              "src": {}
+            }
+          },
+          "web": {
+            "items": {
+              "src": {}
+            }
+          },
+          "web-public": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "apps": {
+        "items": {
+          "auth-server": {
+            "items": {
+              "src": {}
+            }
+          },
+          "blazor": {
+            "items": {
+              "src": {}
+            }
+          },
+          "public-web": {
+            "items": {
+              "src": {}
+            }
+          },
+          "web": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "shared": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.AdministrationService.HttpApi.Host": {
+      "path": "services/administration/src/RickAndMortyApi.AdministrationService.HttpApi.Host/RickAndMortyApi.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "services/administration/src"
+    },
+    "RickAndMortyApi.IdentityService.HttpApi.Host": {
+      "path": "services/identity/src/RickAndMortyApi.IdentityService.HttpApi.Host/RickAndMortyApi.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "services/identity/src"
+    },
+    "RickAndMortyApi.ProductService.HttpApi.Host": {
+      "path": "services/product/src/RickAndMortyApi.ProductService.HttpApi.Host/RickAndMortyApi.ProductService.HttpApi.Host.abppkg.json",
+      "folder": "services/product/src"
+    },
+    "RickAndMortyApi.SaasService.HttpApi.Host": {
+      "path": "services/saas/src/RickAndMortyApi.SaasService.HttpApi.Host/RickAndMortyApi.SaasService.HttpApi.Host.abppkg.json",
+      "folder": "services/saas/src"
+    },
+    "RickAndMortyApi.InternalGateway": {
+      "path": "gateways/internal/src/RickAndMortyApi.InternalGateway/RickAndMortyApi.InternalGateway.abppkg.json",
+      "folder": "gateways/internal/src"
+    },
+    "RickAndMortyApi.WebGateway": {
+      "path": "gateways/web/src/RickAndMortyApi.WebGateway/RickAndMortyApi.WebGateway.abppkg.json",
+      "folder": "gateways/web/src"
+    },
+    "RickAndMortyApi.PublicWebGateway": {
+      "path": "gateways/web-public/src/RickAndMortyApi.PublicWebGateway/RickAndMortyApi.PublicWebGateway.abppkg.json",
+      "folder": "gateways/web-public/src"
+    },
+    "RickAndMortyApi.AuthServer": {
+      "path": "apps/auth-server/src/RickAndMortyApi.AuthServer/RickAndMortyApi.AuthServer.abppkg.json",
+      "folder": "apps/auth-server/src"
+    },
+    "RickAndMortyApi.PublicWeb": {
+      "path": "apps/public-web/src/RickAndMortyApi.PublicWeb/RickAndMortyApi.PublicWeb.abppkg.json",
+      "folder": "apps/public-web/src"
+    },
+    "RickAndMortyApi.DbMigrator": {
+      "path": "shared/RickAndMortyApi.DbMigrator/RickAndMortyApi.DbMigrator.abppkg.json",
+      "folder": "shared"
+    },
+    "RickAndMortyApi.Shared.Hosting.AspNetCore": {
+      "path": "shared/RickAndMortyApi.Shared.Hosting.AspNetCore/RickAndMortyApi.Shared.Hosting.AspNetCore.abppkg.json",
+      "folder": "shared"
+    },
+    "RickAndMortyApi.Shared.Hosting.Microservices": {
+      "path": "shared/RickAndMortyApi.Shared.Hosting.Microservices/RickAndMortyApi.Shared.Hosting.Microservices.abppkg.json",
+      "folder": "shared"
+    },
+    "RickAndMortyApi.Shared.Localization": {
+      "path": "shared/RickAndMortyApi.Shared.Localization/RickAndMortyApi.Shared.Localization.abppkg.json",
+      "folder": "shared"
+    },
+    "RickAndMortyApi.Shared.Hosting.Gateways": {
+      "path": "shared/RickAndMortyApi.Shared.Hosting.Gateways/RickAndMortyApi.Shared.Hosting.Gateways.abppkg.json",
+      "folder": "shared"
+    },
+    "RickAndMortyApi.Shared.Hosting": {
+      "path": "shared/RickAndMortyApi.Shared.Hosting/RickAndMortyApi.Shared.Hosting.abppkg.json",
+      "folder": "shared"
+    }
+  }
+}
