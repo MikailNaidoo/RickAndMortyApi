@@ -1,0 +1,33 @@
+config:
+  selfUrl: # https://rickandmortyapi-st-administration
+  gatewayUrl: # https://rickandmortyapi-st-gateway-internal/
+  corsOrigins: # https://rickandmortyapi-st-gateway-web,https://rickandmortyapi-st-gateway-public-web
+  connectionStrings:
+    administrationService: #
+    saasService: #
+  authServer:
+    authority: # http://rickandmortyapi-st-authserver
+    requireHttpsMetadata: "false"
+  dotnetEnv: #
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+synchedCommunication:
+  grantType: # "client_credentials"
+  clientId: # 
+  clientSecret: #
+  authority: # https://rickandmortyapi-st-authserver
+  scope: # "IdentityService"
+
+ingress:
+  host: # rickandmortyapi-st-administration
+  tlsSecret: rickandmortyapi-tls
+
+image:
+  repository: mycompanyname/rickandmortyapi-service-administration
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

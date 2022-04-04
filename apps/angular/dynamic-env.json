@@ -1,0 +1,21 @@
+{
+  "production": true,
+  "application": {
+    "baseUrl":"https://rickandmortyapi-st-web",
+    "name": "RickAndMortyApi",
+    "logoUrl": ""
+  },
+  "oAuthConfig": {
+    "issuer": "https://rickandmortyapi-st-authserver",
+    "redirectUri": "https://rickandmortyapi-st-web",
+    "clientId": "RickAndMortyApi_Angular",
+    "responseType": "code",
+    "scope": "offline_access openid profile email phone IdentityService AdministrationService SaasService"
+  },
+  "apis": {
+    "default": {
+      "url": "https://rickandmortyapi-st-gateway-web",
+      "rootNamespace": "RickAndMortyApi"
+    }
+  }
+}

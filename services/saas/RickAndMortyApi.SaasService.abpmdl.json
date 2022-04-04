@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.SaasService.HttpApi": {
+      "path": "src/RickAndMortyApi.SaasService.HttpApi/RickAndMortyApi.SaasService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.Application.Contracts": {
+      "path": "src/RickAndMortyApi.SaasService.Application.Contracts/RickAndMortyApi.SaasService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.Application": {
+      "path": "src/RickAndMortyApi.SaasService.Application/RickAndMortyApi.SaasService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.Domain.Shared": {
+      "path": "src/RickAndMortyApi.SaasService.Domain.Shared/RickAndMortyApi.SaasService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.Domain": {
+      "path": "src/RickAndMortyApi.SaasService.Domain/RickAndMortyApi.SaasService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.EntityFrameworkCore": {
+      "path": "src/RickAndMortyApi.SaasService.EntityFrameworkCore/RickAndMortyApi.SaasService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.HttpApi.Client": {
+      "path": "src/RickAndMortyApi.SaasService.HttpApi.Client/RickAndMortyApi.SaasService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.HttpApi.Host": {
+      "path": "src/RickAndMortyApi.SaasService.HttpApi.Host/RickAndMortyApi.SaasService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.SaasService.TestBase": {
+      "path": "test/RickAndMortyApi.SaasService.TestBase/RickAndMortyApi.SaasService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.SaasService.Domain.Tests": {
+      "path": "test/RickAndMortyApi.SaasService.Domain.Tests/RickAndMortyApi.SaasService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.SaasService.EntityFrameworkCore.Tests": {
+      "path": "test/RickAndMortyApi.SaasService.EntityFrameworkCore.Tests/RickAndMortyApi.SaasService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.MicroserviceName.Application.Tests": {
+      "path": "test/RickAndMortyApi.MicroserviceName.Application.Tests/RickAndMortyApi.MicroserviceName.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

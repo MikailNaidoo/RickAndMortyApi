@@ -1,0 +1,13 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.WebGateway": {
+      "path": "src/RickAndMortyApi.WebGateway/RickAndMortyApi.WebGateway.abppkg.json",
+      "folder": "src"
+    }
+  }
+}

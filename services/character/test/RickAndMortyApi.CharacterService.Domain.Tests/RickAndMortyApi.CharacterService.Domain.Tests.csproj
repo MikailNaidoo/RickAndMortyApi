@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RickAndMortyApi.CharacterService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RickAndMortyApi.CharacterService.EntityFrameworkCore.Tests\RickAndMortyApi.CharacterService.EntityFrameworkCore.Tests.csproj" />
+  </ItemGroup>
+
+</Project>

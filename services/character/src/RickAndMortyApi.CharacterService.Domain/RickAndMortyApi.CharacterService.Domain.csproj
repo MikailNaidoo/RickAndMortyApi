@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RickAndMortyApi.CharacterService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="5.1.4" />
+    <ProjectReference Include="..\RickAndMortyApi.CharacterService.Domain.Shared\RickAndMortyApi.CharacterService.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

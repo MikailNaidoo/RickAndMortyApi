@@ -1,0 +1,74 @@
+name: RickAndMortyApi
+services:
+- name: auth-server
+  project: apps/auth-server/src/RickAndMortyApi.AuthServer/RickAndMortyApi.AuthServer.csproj
+  bindings:
+    - protocol: https
+      port: 44322
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: administration-service
+  project: services/administration/src/RickAndMortyApi.AdministrationService.HttpApi.Host/RickAndMortyApi.AdministrationService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44367
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: identity-service
+  project: services/identity/src/RickAndMortyApi.IdentityService.HttpApi.Host/RickAndMortyApi.IdentityService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44388
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: saas-service
+  project: services/saas/src/RickAndMortyApi.SaasService.HttpApi.Host/RickAndMortyApi.SaasService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44381
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: product-service
+  project: services/product/src/RickAndMortyApi.ProductService.HttpApi.Host/RickAndMortyApi.ProductService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 44361
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: web-gateway
+  project: gateways/web/src/RickAndMortyApi.WebGateway/RickAndMortyApi.WebGateway.csproj
+  bindings:
+    - protocol: https
+      port: 44325
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f  
+- name: web-public-gateway
+  project: gateways/web-public/src/RickAndMortyApi.PublicWebGateway/RickAndMortyApi.PublicWebGateway.csproj
+  bindings:
+    - protocol: https
+      port: 44353
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: public-web
+  project: apps/public-web/src/RickAndMortyApi.PublicWeb/RickAndMortyApi.PublicWeb.csproj
+  bindings:
+    - protocol: https
+      port: 44335
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f
+- name: character-service
+  project: services/character/src/RickAndMortyApi.CharacterService.HttpApi.Host/RickAndMortyApi.CharacterService.HttpApi.Host.csproj
+  bindings:
+    - protocol: https
+      port: 45142
+  env:
+    - Kestrel__Certificates__Default__Path=../../../../etc/dev-cert/localhost.pfx
+    - Kestrel__Certificates__Default__Password=e8202f07-66e5-4619-be07-72ba76fde97f

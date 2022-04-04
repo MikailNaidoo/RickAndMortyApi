@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.IdentityService.HttpApi": {
+      "path": "src/RickAndMortyApi.IdentityService.HttpApi/RickAndMortyApi.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.Application": {
+      "path": "src/RickAndMortyApi.IdentityService.Application/RickAndMortyApi.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.Domain": {
+      "path": "src/RickAndMortyApi.IdentityService.Domain/RickAndMortyApi.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.Domain.Shared": {
+      "path": "src/RickAndMortyApi.IdentityService.Domain.Shared/RickAndMortyApi.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.EntityFrameworkCore": {
+      "path": "src/RickAndMortyApi.IdentityService.EntityFrameworkCore/RickAndMortyApi.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.HttpApi.Client": {
+      "path": "src/RickAndMortyApi.IdentityService.HttpApi.Client/RickAndMortyApi.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.Application.Contracts": {
+      "path": "src/RickAndMortyApi.IdentityService.Application.Contracts/RickAndMortyApi.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.HttpApi.Host": {
+      "path": "src/RickAndMortyApi.IdentityService.HttpApi.Host/RickAndMortyApi.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.IdentityService.TestBase": {
+      "path": "test/RickAndMortyApi.IdentityService.TestBase/RickAndMortyApi.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.IdentityService.Domain.Tests": {
+      "path": "test/RickAndMortyApi.IdentityService.Domain.Tests/RickAndMortyApi.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/RickAndMortyApi.IdentityService.EntityFrameworkCore.Tests/RickAndMortyApi.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.IdentityService.Application.Tests": {
+      "path": "test/RickAndMortyApi.IdentityService.Application.Tests/RickAndMortyApi.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

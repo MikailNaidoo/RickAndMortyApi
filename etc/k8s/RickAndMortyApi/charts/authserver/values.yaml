@@ -1,0 +1,30 @@
+config:
+  selfUrl: # https://rickandmortyapi-st-authserver
+  corsOrigins: # https://rickandmortyapi-st-identity,https://rickandmortyapi-st-administration,https://rickandmortyapi-st-saas
+  allowedRedirectUrls: #https://rickandmortyapi-st-web
+  identityService:
+    connString: # 
+  administrationService:
+    connString: # 
+  saasService:
+    connString: #     
+  authServer:
+    authority: #http://rickandmortyapi-st-authserver
+    requireHttpsMetadata: #"false"
+  dotnetEnv: # 
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+ingress:
+  host: # rickandmortyapi-st-authserver
+  tlsSecret: rickandmortyapi-tls
+
+image:
+  repository: mycompanyname/rickandmortyapi-app-authserver
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}
+    

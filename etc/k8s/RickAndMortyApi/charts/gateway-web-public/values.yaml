@@ -1,0 +1,37 @@
+config:
+  selfUrl: # https://rickandmortyapi-st-gateway-public-web
+  globalConfigurationBaseUrl: # http://rickandmortyapi-st-gateway-public-web
+  corsOrigins: # https://rickandmortyapi-st-gateway-web,https://rickandmortyapi-st-gateway-public-web
+  authServer:
+    authority: # http://rickandmortyapi-st-authserver
+    requireHttpsMetadata: # "false"
+  dotnetEnv: Staging 
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+
+reRoutes:
+  identityService:
+    schema: http
+    host: rickandmortyapi-st-identity
+    port: 80
+  administrationService:
+    schema: http
+    host: rickandmortyapi-st-administration
+    port: 80
+  productService:
+    schema: http
+    host: rickandmortyapi-st-product
+    port: 80  
+
+ingress:
+  host: rickandmortyapi-st-gateway-web-public
+  tlsSecret: rickandmortyapi-tls
+
+image:
+  repository: mycompanyname/rickandmortyapi-gateway-web-public
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}
+    

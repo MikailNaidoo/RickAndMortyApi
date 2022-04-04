@@ -1,0 +1,1 @@
+helm upgrade --install rickandmortyapi-st rickandmortyapi --namespace rickandmortyapi --create-namespace

@@ -1,0 +1,17 @@
+config:
+  selfUrl: # 
+  gatewayUrl: # 
+  authServer:
+    authority: # http://rickandmortyapi-st-authserver
+    requireHttpsMetadata: # "false"
+
+ingress:
+  host: # rickandmortyapi-st-angular
+  tlsSecret: rickandmortyapi-tls
+
+image:
+  repository: mycompanyname/rickandmortyapi-app-angular
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

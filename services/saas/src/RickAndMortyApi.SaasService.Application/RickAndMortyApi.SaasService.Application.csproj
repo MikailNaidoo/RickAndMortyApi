@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Saas.Host.Application" Version="5.1.4" />
+        <PackageReference Include="Volo.Saas.Tenant.Application" Version="5.1.4" />        
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\RickAndMortyApi.SaasService.Domain\RickAndMortyApi.SaasService.Domain.csproj" />
+        <ProjectReference Include="..\RickAndMortyApi.SaasService.Application.Contracts\RickAndMortyApi.SaasService.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

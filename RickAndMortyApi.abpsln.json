@@ -1,0 +1,40 @@
+{
+  "modules": {
+    "RickAndMortyApi": {
+      "path": "RickAndMortyApi.abpmdl.json"
+    },
+    "RickAndMortyApi.AuthServer": {
+      "path": "apps/auth-server/RickAndMortyApi.AuthServer.abpmdl.json"
+    },
+    "RickAndMortyApi.Blazor": {
+      "path": "apps/blazor/RickAndMortyApi.Blazor.abpmdl.json"
+    },
+    "RickAndMortyApi.PublicWeb": {
+      "path": "apps/public-web/RickAndMortyApi.PublicWeb.abpmdl.json"
+    },
+    "RickAndMortyApi.Web": {
+      "path": "apps/web/RickAndMortyApi.Web.abpmdl.json"
+    },
+    "RickAndMortyApi.InternalGateway": {
+      "path": "gateways/internal/RickAndMortyApi.InternalGateway.abpmdl.json"
+    },
+    "RickAndMortyApi.WebGateway": {
+      "path": "gateways/web/RickAndMortyApi.WebGateway.abpmdl.json"
+    },
+    "RickAndMortyApi.PublicWebGateway": {
+      "path": "gateways/web-public/RickAndMortyApi.PublicWebGateway.abpmdl.json"
+    },
+    "RickAndMortyApi.AdministrationService": {
+      "path": "services/administration/RickAndMortyApi.AdministrationService.abpmdl.json"
+    },
+    "RickAndMortyApi.IdentityService": {
+      "path": "services/identity/RickAndMortyApi.IdentityService.abpmdl.json"
+    },
+    "RickAndMortyApi.ProductService": {
+      "path": "services/product/RickAndMortyApi.ProductService.abpmdl.json"
+    },
+    "RickAndMortyApi.SaasService": {
+      "path": "services/saas/RickAndMortyApi.SaasService.abpmdl.json"
+    }
+  }
+}

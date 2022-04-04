@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="6.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.BackgroundJobs.RabbitMQ" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Lepton" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.Account.Pro.Public.Web.IdentityServer" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.Account.Pro.Public.HttpApi" Version="5.1.4" />
+        <PackageReference Include="Volo.Abp.Account.Pro.Public.Application" Version="5.1.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\services\administration\src\RickAndMortyApi.AdministrationService.EntityFrameworkCore\RickAndMortyApi.AdministrationService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\..\services\identity\src\RickAndMortyApi.IdentityService.EntityFrameworkCore\RickAndMortyApi.IdentityService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\..\services\saas\src\RickAndMortyApi.SaasService.EntityFrameworkCore\RickAndMortyApi.SaasService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\RickAndMortyApi.Shared.Hosting.AspNetCore\RickAndMortyApi.Shared.Hosting.AspNetCore.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\RickAndMortyApi.Shared.Localization\RickAndMortyApi.Shared.Localization.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Remove="Logs\**" />
+        <Content Remove="Logs\**" />
+        <EmbeddedResource Remove="Logs\**" />
+        <None Remove="Logs\**" />
+    </ItemGroup>
+
+</Project>

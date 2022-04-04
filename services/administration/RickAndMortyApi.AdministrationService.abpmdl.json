@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.AdministrationService.HttpApi": {
+      "path": "src/RickAndMortyApi.AdministrationService.HttpApi/RickAndMortyApi.AdministrationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.Application.Contracts": {
+      "path": "src/RickAndMortyApi.AdministrationService.Application.Contracts/RickAndMortyApi.AdministrationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.Application": {
+      "path": "src/RickAndMortyApi.AdministrationService.Application/RickAndMortyApi.AdministrationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.Domain.Shared": {
+      "path": "src/RickAndMortyApi.AdministrationService.Domain.Shared/RickAndMortyApi.AdministrationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.Domain": {
+      "path": "src/RickAndMortyApi.AdministrationService.Domain/RickAndMortyApi.AdministrationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.EntityFrameworkCore": {
+      "path": "src/RickAndMortyApi.AdministrationService.EntityFrameworkCore/RickAndMortyApi.AdministrationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.HttpApi.Client": {
+      "path": "src/RickAndMortyApi.AdministrationService.HttpApi.Client/RickAndMortyApi.AdministrationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.HttpApi.Host": {
+      "path": "src/RickAndMortyApi.AdministrationService.HttpApi.Host/RickAndMortyApi.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.AdministrationService.TestBase": {
+      "path": "test/RickAndMortyApi.AdministrationService.TestBase/RickAndMortyApi.AdministrationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.AdministrationService.Domain.Tests": {
+      "path": "test/RickAndMortyApi.AdministrationService.Domain.Tests/RickAndMortyApi.AdministrationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.AdministrationService.EntityFrameworkCore.Tests": {
+      "path": "test/RickAndMortyApi.AdministrationService.EntityFrameworkCore.Tests/RickAndMortyApi.AdministrationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.AdministrationService.Application.Tests": {
+      "path": "test/RickAndMortyApi.AdministrationService.Application.Tests/RickAndMortyApi.AdministrationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

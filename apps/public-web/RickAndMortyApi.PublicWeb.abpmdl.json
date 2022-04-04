@@ -1,0 +1,13 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.PublicWeb": {
+      "path": "src/RickAndMortyApi.PublicWeb/RickAndMortyApi.PublicWeb.abppkg.json",
+      "folder": "src"
+    }
+  }
+}

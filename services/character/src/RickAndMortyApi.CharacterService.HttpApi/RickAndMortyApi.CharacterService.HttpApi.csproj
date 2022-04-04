@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>RickAndMortyApi.CharacterService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="5.1.4" />
+    <ProjectReference Include="..\RickAndMortyApi.CharacterService.Application.Contracts\RickAndMortyApi.CharacterService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+config:
+  elasticsearchUrl: http://rickandmortyapi-st-elasticsearch:9200
+
+ingress:
+  host: rickandmortyapi-st-kibana
+  tlsSecret: rickandmortyapi-tls
+
+

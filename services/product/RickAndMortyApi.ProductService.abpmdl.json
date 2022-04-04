@@ -1,0 +1,62 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.ProductService.Domain.Shared": {
+      "path": "src/RickAndMortyApi.ProductService.Domain.Shared/RickAndMortyApi.ProductService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.Domain": {
+      "path": "src/RickAndMortyApi.ProductService.Domain/RickAndMortyApi.ProductService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.Application.Contracts": {
+      "path": "src/RickAndMortyApi.ProductService.Application.Contracts/RickAndMortyApi.ProductService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.Application": {
+      "path": "src/RickAndMortyApi.ProductService.Application/RickAndMortyApi.ProductService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.EntityFrameworkCore": {
+      "path": "src/RickAndMortyApi.ProductService.EntityFrameworkCore/RickAndMortyApi.ProductService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.HttpApi": {
+      "path": "src/RickAndMortyApi.ProductService.HttpApi/RickAndMortyApi.ProductService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.HttpApi.Client": {
+      "path": "src/RickAndMortyApi.ProductService.HttpApi.Client/RickAndMortyApi.ProductService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.HttpApi.Host": {
+      "path": "src/RickAndMortyApi.ProductService.HttpApi.Host/RickAndMortyApi.ProductService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.Web": {
+      "path": "src/RickAndMortyApi.ProductService.Web/RickAndMortyApi.ProductService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.ProductService.Application.Tests": {
+      "path": "test/RickAndMortyApi.ProductService.Application.Tests/RickAndMortyApi.ProductService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.ProductService.Domain.Tests": {
+      "path": "test/RickAndMortyApi.ProductService.Domain.Tests/RickAndMortyApi.ProductService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.ProductService.EntityFrameworkCore.Tests": {
+      "path": "test/RickAndMortyApi.ProductService.EntityFrameworkCore.Tests/RickAndMortyApi.ProductService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.ProductService.TestBase": {
+      "path": "test/RickAndMortyApi.ProductService.TestBase/RickAndMortyApi.ProductService.TestBase.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

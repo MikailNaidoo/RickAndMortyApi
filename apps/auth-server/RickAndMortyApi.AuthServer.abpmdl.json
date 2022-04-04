@@ -1,0 +1,13 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.AuthServer": {
+      "path": "src/RickAndMortyApi.AuthServer/RickAndMortyApi.AuthServer.abppkg.json",
+      "folder": "src"
+    }
+  }
+}

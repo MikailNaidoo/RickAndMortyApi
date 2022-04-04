@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "RickAndMortyApi.CharacterService.Domain.Shared": {
+      "path": "src/RickAndMortyApi.CharacterService.Domain.Shared/RickAndMortyApi.CharacterService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.Application.Contracts": {
+      "path": "src/RickAndMortyApi.CharacterService.Application.Contracts/RickAndMortyApi.CharacterService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.Domain": {
+      "path": "src/RickAndMortyApi.CharacterService.Domain/RickAndMortyApi.CharacterService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.Application": {
+      "path": "src/RickAndMortyApi.CharacterService.Application/RickAndMortyApi.CharacterService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.EntityFrameworkCore": {
+      "path": "src/RickAndMortyApi.CharacterService.EntityFrameworkCore/RickAndMortyApi.CharacterService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.HttpApi": {
+      "path": "src/RickAndMortyApi.CharacterService.HttpApi/RickAndMortyApi.CharacterService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.HttpApi.Client": {
+      "path": "src/RickAndMortyApi.CharacterService.HttpApi.Client/RickAndMortyApi.CharacterService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.HttpApi.Host": {
+      "path": "src/RickAndMortyApi.CharacterService.HttpApi.Host/RickAndMortyApi.CharacterService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "RickAndMortyApi.CharacterService.Domain.Tests": {
+      "path": "test/RickAndMortyApi.CharacterService.Domain.Tests/RickAndMortyApi.CharacterService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.CharacterService.EntityFrameworkCore.Tests": {
+      "path": "test/RickAndMortyApi.CharacterService.EntityFrameworkCore.Tests/RickAndMortyApi.CharacterService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.CharacterService.TestBase": {
+      "path": "test/RickAndMortyApi.CharacterService.TestBase/RickAndMortyApi.CharacterService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "RickAndMortyApi.CharacterService.Application.Tests": {
+      "path": "test/RickAndMortyApi.CharacterService.Application.Tests/RickAndMortyApi.CharacterService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

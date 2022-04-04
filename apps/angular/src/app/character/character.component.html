@@ -1,0 +1,84 @@
+<abp-page [title]="'CharacterService::Characters' | abpLocalization">
+  <abp-page-toolbar-container class="col">
+  </abp-page-toolbar-container>
+  <p>
+    <a
+      href="javascript:;"
+      (click)="isFiltersHidden = !isFiltersHidden"
+      [attr.aria-expanded]="!isFiltersHidden"
+      aria-controls="advanced-content-filters"
+    >
+      {{ 'CharacterService::SeeAdvancedFilters' | abpLocalization }}
+      <i [ngbCollapse]="!isFiltersHidden" class="fa fa-angle-down ms-1" aria-hidden="true"></i>
+      <i [ngbCollapse]="isFiltersHidden" class="fa fa-angle-up ms-1" aria-hidden="true"></i>
+    </a>
+  </p>
+
+  <div id="advanced-content-filters" [ngbCollapse]="isFiltersHidden">
+    <div class="card mb-4">
+      <div class="card-body">
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <div class="data-tables-filter">
+        <div class="input-group">
+          <input
+            type="search"
+            class="form-control"
+            [placeholder]="'AbpUi::PagerSearch' | abpLocalization"
+            [(ngModel)]="list.filter"
+          />
+          <div class="input-group-append">
+            <button
+              [title]="'AbpUi::Search' | abpLocalization"
+              (click)="list.get()"
+              class="btn btn-sm btn-primary"
+            >
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <ngx-datatable [list]="list" default>
+        <ngx-datatable-column
+          [name]="'AbpUi::Actions' | abpLocalization"
+          [maxWidth]="150"
+          [width]="150"
+          [sortable]="false"
+        >
+          <ng-template let-row="row" let-i="rowIndex" ngx-datatable-cell-template>
+            <div ngbDropdown container="body" class="d-inline-block">
+              <button
+                class="btn btn-primary btn-sm dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                ngbDropdownToggle
+              >
+                <i class="fa fa-cog me-1" aria-hidden="true"></i>
+                {{ 'AbpUi::Actions' | abpLocalization }}
+              </button>
+
+            </div>
+          </ng-template>
+        </ngx-datatable-column>
+
+        <ngx-datatable-column name="{{ 'CharacterService::Name' | abpLocalization }}" prop="name">
+          <ng-template let-row="row" ngx-datatable-cell-template>
+            {{ row.name }}
+          </ng-template>
+        </ngx-datatable-column>
+
+        <ngx-datatable-column name="{{ 'CharacterService::Species' | abpLocalization }}" prop="species">
+          <ng-template let-row="row" ngx-datatable-cell-template>
+            {{ row.species }}
+          </ng-template>
+        </ngx-datatable-column>
+      </ngx-datatable>
+    </div>
+  </div>
+</abp-page>

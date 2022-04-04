@@ -1,0 +1,169 @@
+{
+  "folders": {
+    "src": {},
+    "test": {}
+  },
+  "packages": {
+    "RickAndMortyApi.ProductService.Domain.Shared": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Domain.Shared/RickAndMortyApi.ProductService.Domain.Shared.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.domain.shared": {}
+      }      
+    },
+    "RickAndMortyApi.ProductService.Domain": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Domain/RickAndMortyApi.ProductService.Domain.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.domain": {}
+      },
+      "contents": {
+        "aggregates": {
+          "RickAndMortyApi.ProductService.Products.Product": {
+            "keyType": "Guid",
+            "summary": "Represents a product.",
+            "collectionProperties": {},
+            "navigationProperties": {}
+          } 
+        },
+        "repositoryInterfaces": {
+          "RickAndMortyApi.ProductService.Products.IProductRepository": {
+            "entity": {
+              "type": "RickAndMortyApi.ProductService.Products.Product",
+              "package": "RickAndMortyApi.ProductService.Domain"
+            }
+          }
+        }
+      }
+    },
+    "RickAndMortyApi.ProductService.Application.Contracts": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Application.Contracts/RickAndMortyApi.ProductService.Application.Contracts.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application.contracts": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.Application": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Application/RickAndMortyApi.ProductService.Application.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.application": {}
+      },
+      "contents": {
+        "applicationServices": {
+          "RickAndMortyApi.ProductService.ProductAppService": {}
+        }
+      }
+    },
+    "RickAndMortyApi.ProductService.EntityFrameworkCore": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.EntityFrameworkCore/RickAndMortyApi.ProductService.EntityFrameworkCore.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ef": {}
+      },
+      "contents": {
+        "efDbContexts": {
+          "RickAndMortyApi.ProductService.EntityFrameworkCore.ProductServiceDbContext": {
+            "entities": {
+              "RickAndMortyApi.ProductService.Products.Product": {
+                "package": "RickAndMortyApi.ProductService.Domain",
+                "dbSetPropertyOnDbContext": "Products",
+                "databaseTable": "Products" 
+              }
+            }
+          }
+        }
+      }
+    },
+    "RickAndMortyApi.ProductService.HttpApi": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.HttpApi/RickAndMortyApi.ProductService.HttpApi.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api": {}
+      },
+      "contents": {
+        "controllers": {
+          "RickAndMortyApi.ProductService.Products.ProductController": {},
+          "RickAndMortyApi.ProductService.Products.ProductPublicController": {}
+        }
+      }
+    },
+    "RickAndMortyApi.ProductService.HttpApi.Client": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.HttpApi.Client/RickAndMortyApi.ProductService.HttpApi.Client.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.http-api-client": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.Web": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Web/RickAndMortyApi.ProductService.Web.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.mvc": {}
+      },
+      "contents": {
+        "mvcPages": {
+          "RickAndMortyApi.ProductService.Web.Pages.Products.Index.cshtml": {},
+          "RickAndMortyApi.ProductService.Web.Pages.Products.CreateModal.cshtml": {},
+          "RickAndMortyApi.ProductService.Web.Pages.Products.EditModal.cshtml": {}
+        }
+      }
+    },
+    "RickAndMortyApi.ProductService.Blazor": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.Blazor/RickAndMortyApi.ProductService.Blazor.csproj",
+      "folder": "src",
+      "includes": {
+        "lib.ui.blazor": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.HttpApi.Host": {
+      "type": "dotnet-project",
+      "path": "src/RickAndMortyApi.ProductService.HttpApi.Host/RickAndMortyApi.ProductService.HttpApi.Host.csproj",
+      "folder": "src",
+      "includes": {
+        "host.http-api": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.TestBase": {
+      "type": "dotnet-project",
+      "path": "test/RickAndMortyApi.ProductService.TestBase/RickAndMortyApi.ProductService.TestBase.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.Domain.Tests": {
+      "type": "dotnet-project",
+      "path": "test/RickAndMortyApi.ProductService.Domain.Tests/RickAndMortyApi.ProductService.Domain.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.EntityFrameworkCore.Tests": {
+      "type": "dotnet-project",
+      "path": "test/RickAndMortyApi.ProductService.EntityFrameworkCore.Tests/RickAndMortyApi.ProductService.EntityFrameworkCore.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    },
+    "RickAndMortyApi.ProductService.Application.Tests": {
+      "type": "dotnet-project",
+      "path": "test/RickAndMortyApi.ProductService.Application.Tests/RickAndMortyApi.ProductService.Application.Tests.csproj",
+      "folder": "test",
+      "includes": {
+        "lib.test": {}
+      }
+    }
+  }
+}
